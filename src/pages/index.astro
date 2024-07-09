@@ -1,16 +1,34 @@
 ---
-import '@/styles/globals.css'
+import Layout from '@/layouts/Layout.astro'
+import { Code } from 'astro:components'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+	<h2>Welcome to My Challenges</h2>
+	
+	<p>
+		Select a file from the sidebar to view its content.
+	</p>
+
+	<a href="https://maykbrito.dev">Clique here to teste the link</a>
+
+	<img src="https://rseat.pics" class="aspect-[21/4] w-full object-cover" />
+
+	<Code code='console.log("teste")' lang="typescript"></Code>
+
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nemo enim nobis autem commodi officia blanditiis placeat, ducimus odio accusantium pariatur veniam in incidunt veritatis, laudantium nostrum dignissimos quis ut?
+	</p>
+
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorum consequatur dolore optio necessitatibus quia, et fugiat expedita unde quos enim corrupti reiciendis eaque, esse error iste sint exercitationem? Aut.
+	</p>
+
+	<p>
+		Lorem ipsum, dolor sit amet consectetur adipisicing elit. At aliquid hic, optio fugiat architecto nisi saepe consequatur perferendis voluptatum quos tempore accusantium ea harum mollitia expedita autem aperiam explicabo temporibus.
+	</p>
+
+	<p>
+		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum cupiditate dolores nam illo architecto neque tempore aut nihil laudantium deserunt. Harum, aspernatur molestias quo excepturi illum placeat tempore deleniti soluta.
+	</p>
+</Layout>
