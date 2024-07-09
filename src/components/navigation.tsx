@@ -9,7 +9,7 @@ export function Navigation() {
       </Folder>
 
       <Folder title="Articles">
-        <File href="/">Intro</File>
+        <File href="/second">Second</File>
       </Folder>
     </nav>
   );
