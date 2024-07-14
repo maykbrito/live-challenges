@@ -5,6 +5,8 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://maykbrito.github.io",
+  base: "live-challenges",
   integrations: [
     tailwind({
       applyBaseStyles: false,
